@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Turnos</title>
+    <link rel="stylesheet" href="appturnos.css">
+    <link rel="icon" href="image2.png">
+    
+    
+</head>
+<body>
+    
+    <div class="header">
+        <h1 id="titulo">TURNOS</h1><img src="image2.png" alt="" id="image">
+    </div>
+   
+
+    <div class="fecha">
+        <input type="date" id="date" onChange="consultar()" onClick="audio()" placeholder="Fecha">
+        
+
+    </div>
+    
+    <div class="canchas">
+        <div class="horarios">
+            <input type="text" placeholder="15 Hs" id="inp1" class="inphprarios">
+            <input type="text" placeholder= "16 hs" id="inp2" class="inphprarios">
+            <input type="text" placeholder="17 hs" id="inp3" class="inphprarios">
+            <input type="text" placeholder="18 Hs" id="inp4" class="inphprarios">
+            <input type="text" placeholder="19 hs" id="inp5" class="inphprarios">
+            <input type="text" placeholder="20 Hs" id="inp6" class="inphprarios">
+            <input type="text" placeholder="21 hs" id="inp7" class="inphprarios">
+            <input type="text" placeholder="22 hs" id="inp8" class="inphprarios">
+            <input type="text" placeholder="23 hs" id="inp9" class="inphprarios">
+    
+            
+        </div>
+    
+        <div class="horarios">
+            <input type="text" placeholder="15 Hs" id="inp10" class="inphprarios">
+            <input type="text" placeholder="16 hs" id="inp11" class="inphprarios">
+            <input type="text" placeholder="17 hs" id="inp12" class="inphprarios">
+            <input type="text" placeholder="18 Hs" id="inp13" class="inphprarios">
+            <input type="text" placeholder="19 hs" id="inp14" class="inphprarios">
+            <input type="text" placeholder="20 Hs" id="inp15" class="inphprarios">
+            <input type="text" placeholder="21 hs" id="inp16" class="inphprarios">
+            <input type="text" placeholder="22 hs" id="inp17" class="inphprarios">
+            <input type="text" placeholder="23 hs" id="inp18" class="inphprarios">
+    
+            
+        </div>
+
+    </div>
+    
+
+    <div>
+        <button id="btnGuardar">GUARDAR</button>
+        <p for="" id="label"></p>
+    </div>
+
+    <div class="guardar">
+
+       
+
+    </div>
+    <audio src="guardar.mp3" id="audioGuardar"></audio>
+    <audio src="open.mp3" id="audioOpen"></audio>
+    
+    
+    <script src="appturnos.js"></script>
+</body>
+</html>
